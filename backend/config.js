@@ -1,0 +1,3 @@
+export const PORT = process.env.PORT || 3000;
+
+export const mongoDBURL = 'mongodb+srv://remsimiyu:MSsAqgrT1pYPRmDS@book-store-mern.0pkyln1.mongodb.net/books-collection?retryWrites=true&w=majority&appName=Book-Store-MERN'
