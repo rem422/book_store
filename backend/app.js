@@ -13,14 +13,6 @@ app.use(express.json());
 // Option 1: Allow All Origins with Default of cors(*)
 app.use(cors());
 
-// // Option 2: Allow Custom Origin
-// app.use(cors({
-//     origin: "http://localhost:5173/",
-//     methods: ['GET', 'POST', 'PUT', 'DELETE'],
-//     allowedHeaders: ['Content-Type']
-// }));
-
-
 app.get("/", (req, res) => {
     console.log(req);
     res.status(200).send({msg: "Welcome to the Backend world!"});
