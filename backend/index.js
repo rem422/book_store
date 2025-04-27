@@ -27,7 +27,7 @@ mongoose
     .then(() => {
         console.log('App connected to database');
         app.listen(PORT, () => {
-            console.log(`server is running on port:http://localhost:${PORT}`);
+            console.log(`server is running on port: https://book-store-yrvb.onrender.com`);
         });
     })
     .catch((error) => {
